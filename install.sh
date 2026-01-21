@@ -27,13 +27,6 @@ installPackage() {
 }
 
 installYay() {
-
-	read -p "Do you want configure yay? (y/n) default:y" answ
-	answ=${answ:-y}
-
-	if [[ "$answ" == "y" ]]; then
-
-
 		info_message "Installing yay..."
 
 		if command -v yay > /dev/null; then
@@ -50,25 +43,6 @@ installYay() {
   			rm -rf ~/Downloads/yay
   			success_message "yay has been installed successfully"
 		fi
-	else
-			info_message "Installing yay..."
-
-		if command -v yay > /dev/null; then
-  			success_message "yay is installed. Skipping installation"
-		else
-  			error_message "yay is not installed. Installing..."
-  			sleep 1
-  			sudo pacman -S --needed --noconfirm base-devel less
-  			whereami=$(pwd)
-  			git clone https://aur.archlinux.org/yay.git ~/Downloads/yay
- 	 		cd ~/Downloads/yay
- 	 		makepkg -si --noconfirm
-  			cd $whereami
-  			rm -rf ~/Downloads/yay
-  			success_message "yay has been installed successfully"
-		fi
-	fi
-
 }
 
 
