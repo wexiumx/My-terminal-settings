@@ -21,10 +21,8 @@ installPackages() {
   local pkg = $1
     if [[ $(pacman -Q "${pkg}" 2>/dev/null) ]]; then
       success_message "${pkg} is already installed"
-      continue
     fi
     yay -S --needed --noconfirm --answerclean All --answerdiff None "${pkg}"
-  done
 }
 
 installYay() {
