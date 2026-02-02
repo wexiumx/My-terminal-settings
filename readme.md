@@ -19,7 +19,7 @@ This repository contains my personal terminal setup, featuring:
 To install this terminal configuration:
 
 > [!IMPORTANT]
-> I assume that you already have the 'git' package installed. If not, what are you waiting for?
+> I assume that you already have the `git` package installed. If not, what are you waiting for?
 
 ```bash
 git clone https://github.com/wexiumx/myTerminal.git ~/
@@ -28,7 +28,7 @@ cd ~/myTerminal
 ```
 
 > [!WARNING]
-> My script may not have applied zsh to your terminal, If that happens, run this command in your terminal 'sudo chsh -s /bin/zsh'
+> My script may not have applied zsh to your terminal, If that happens, run this command in your terminal `sudo chsh -s /bin/zsh`
 
 The installation script will automatically set up all configurations and symlinks.
 
