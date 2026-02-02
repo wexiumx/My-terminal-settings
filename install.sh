@@ -31,7 +31,7 @@ installPackageByPacman() {
     if [[ $(pacman -Q "${pkg}" 2>/dev/null) ]]; then
       success_message "${pkg} is already installed"
     else
-		sudo pacman -S ${pkg} 
+		sudo pacman -S --noconfirm "${pkg}" 
 	fi
 }
 
