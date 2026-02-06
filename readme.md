@@ -11,7 +11,7 @@ This repository contains my personal terminal setup, featuring:
   - **Zinit** - Plugin manager
   - **fzf** - Fuzzy finder
   - **Zoxide** - Smarter cd command
-- **Oh My Posh** - Prompt
+  - **Oh My Posh** - Prompt
 
 
 ## Installation
