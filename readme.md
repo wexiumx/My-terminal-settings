@@ -8,10 +8,11 @@ This repository contains my personal terminal setup, featuring:
 
 - **Ghostty** - Terminal
 - **Zsh** - Shell
+  - **Oh My Posh** - Prompt
   - **Zinit** - Plugin manager
   - **fzf** - Fuzzy finder
   - **Zoxide** - Smarter cd command
-  - **Oh My Posh** - Prompt
+  
 
 
 ## Installation
