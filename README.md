@@ -1,5 +1,7 @@
 > [!WARNING]
-> this repo was moved to codeberg
+> ⚠️ this repo was moved to [codeberg](https://codeberg.org/wexiumx/terminal)
+
+---
 
 
 ## Overview
